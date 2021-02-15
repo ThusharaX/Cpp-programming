@@ -1,0 +1,6 @@
+﻿  GreetingConsoleApp.cpp
+c:\users\thushara thiwanka\desktop\github\cpp-programming\lab exercises\lab 01\greetingconsoleapp\greetingconsoleapp\greetingconsoleapp.cpp(6): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  c:\users\thushara thiwanka\desktop\github\cpp-programming\lab exercises\lab 01\greetingconsoleapp\greetingconsoleapp\greetingconsoleapp.cpp(6): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\thushara thiwanka\desktop\github\cpp-programming\lab exercises\lab 01\greetingconsoleapp\greetingconsoleapp\greetingconsoleapp.cpp(6): note: the missing variadic argument 2 is required by format string '%c'
+  c:\users\thushara thiwanka\desktop\github\cpp-programming\lab exercises\lab 01\greetingconsoleapp\greetingconsoleapp\greetingconsoleapp.cpp(6): note: this argument is used as a buffer size
+  GreetingConsoleApp.vcxproj -> C:\Users\Thushara Thiwanka\Desktop\GitHub\Cpp-programming\Lab Exercises\Lab 01\GreetingConsoleApp\x64\Debug\GreetingConsoleApp.exe
