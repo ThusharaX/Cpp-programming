@@ -3,18 +3,21 @@
 #include <iostream>
 #include<iomanip>
 
+using namespace std;
+
 int main (void) {
 
-    float length, width, perimeter = 0;
+    float Radius, perimeter, area;
+    float pi = (float)22/7;
 
-    std::cout << "Enter Length : ";
-    std::cin >> length;
-    std::cout << "Enter Width : ";
-    std::cin >> width;
+    cout << "Enter Radius : ";
+    cin >> Radius;
 
-    perimeter = 2 * (length + width);
+    perimeter = 2 * pi * Radius;
+    area = pi * (Radius * Radius);
 
-    std::cout << "Perimeter = "<< std::fixed << std::setprecision(2) << perimeter << std::endl;
+    cout << "Perimeter = "<< fixed << setprecision(2) << perimeter << endl;
+    cout << "Area = "<< fixed << setprecision(2) << area << endl;
 
     return 0;
 }
