@@ -24,7 +24,7 @@ int main (void) {
     int rate = 0;
 
     cout << "Enter Total Price : "; // prompt
-    cin >> totalPrice;              // input Radius
+    cin >> totalPrice;              // input Total Price
 
     // Checking CONDITIONS
     if (totalPrice > 10000) {
