@@ -16,13 +16,13 @@
 
 int main (void) {
 
-    float num = 25.695789;
+    float num = 25.6957;
 
     std::cout << std::setw(12) << num << std::endl;
 
     std::cout<< std::setw(12) <<std::setprecision (5) << num<< std::endl;
 
-    std::cout << std::setw(12) << std::fixed << std::setprecision (5) << num << std::endl;
+    std::cout << std::setw(12) << std::setiosflags(std::ios::fixed) << std::setprecision (5) << num << std::endl;
 
     return 0;
 }
