@@ -32,7 +32,7 @@ void ARR :: SORT()
 }
  }
   
-voidARR :: DIS()
+void ARR :: DIS()
 {
  cout<<"Your Array is : "<<" ";
 for(i=0;i<n;i++)
