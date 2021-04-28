@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// You can put this code segment in Train.h file -----
 class Train {
     private:
         int trainID;
@@ -13,6 +14,7 @@ class Train {
         void displayTrainDetails();
         void setStartTime();
 };
+// ----------------------------------------------------
 
 int main() {
 
@@ -33,6 +35,7 @@ int main() {
     return 0;
 }
 
+// You can put this code segment in Train.cpp file -----
 void Train::setTrainDetails(int tID, int c, string sT, string d) {
     trainID = tID;
     capacity = c;
@@ -51,3 +54,4 @@ void Train::setStartTime() {
     cout << "Input new start time of train " << trainID << ": ";
     cin >> startTime;
 }
+// ----------------------------------------------------

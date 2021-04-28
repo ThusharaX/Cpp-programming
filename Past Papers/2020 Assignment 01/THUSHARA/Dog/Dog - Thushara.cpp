@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// You can put this code segment in Dog.h file -----
 class Dog {
     private:
         int dogID;
@@ -12,6 +13,7 @@ class Dog {
         void displayDogDetails();
         void setOwner();
 };
+// ----------------------------------------------------
 
 int main() {
 
@@ -32,6 +34,7 @@ int main() {
     return 0;
 }
 
+// You can put this code segment in Dog.cpp file -----
 void Dog::setDogDetails(int dID, string dN, string o) {
     dogID = dID;
     dogName = dN;
@@ -48,3 +51,4 @@ void Dog::setOwner() {
     cout << "Input new owner of dog " << dogID << ": ";
     cin >> owner;
 }
+// ----------------------------------------------------

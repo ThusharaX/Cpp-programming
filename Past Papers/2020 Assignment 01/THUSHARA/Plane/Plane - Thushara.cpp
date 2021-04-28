@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// You can put this code segment in Plane.h file -----
 class Plane {
     private:
         int planeID;
@@ -13,6 +14,7 @@ class Plane {
         void setPiolet();
         // void getDestination();
 };
+// ----------------------------------------------------
 
 int main() {
 
@@ -34,6 +36,7 @@ int main() {
     return 0;
 }
 
+// You can put this code segment in Plane.cpp file -----
 void Plane::setPlaneDetails(int pID, string p, string d) {
     planeID = pID;
     piolet = p;
@@ -50,6 +53,7 @@ void Plane::setPiolet() {
     cout << "Input new piolet of plane " << planeID << ": ";
     cin >> piolet;
 }
+// ----------------------------------------------------
 
 // void Plane::getDestination() {
 
