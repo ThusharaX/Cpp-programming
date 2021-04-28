@@ -42,8 +42,8 @@ void Plane::setPlaneDetails(int pID, string p, string d) {
 
 void Plane::displayPlaneDetails() {
     cout << endl <<"PlaneID = " << planeID << endl;
-    cout << "Piolet = " << piolet <<endl;
-    cout << "Destination = " << destination <<endl;
+    cout << "Piolet = " << piolet << endl;
+    cout << "Destination = " << destination << endl;
 }
 
 void Plane::setPiolet() {

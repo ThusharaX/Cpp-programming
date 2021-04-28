@@ -41,10 +41,10 @@ void Train::setTrainDetails(int tID, int c, string sT, string d) {
 }
 
 void Train::displayTrainDetails() {
-    cout << endl <<"TrainID = " << trainID <<endl;
-    cout << "Capacity = " << capacity <<endl;
-    cout << "StartTime = " << startTime <<endl;
-    cout << "Destination = " << destination <<endl;
+    cout << endl << "TrainID = " << trainID << endl;
+    cout << "Capacity = " << capacity << endl;
+    cout << "StartTime = " << startTime << endl;
+    cout << "Destination = " << destination << endl;
 }
 
 void Train::setStartTime() {
