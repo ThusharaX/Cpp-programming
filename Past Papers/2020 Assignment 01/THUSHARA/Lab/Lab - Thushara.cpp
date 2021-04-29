@@ -10,7 +10,6 @@ class Lab {
     public:
         void setLabDetails(int lID, int c);
         int getCapacity();
-        int getLabID();
 };
 // ----------------------------------------------------
 
