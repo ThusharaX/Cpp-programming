@@ -17,22 +17,27 @@ class Lab {
 int main() {
 
     int capacity;
-    Lab l[3];
+    Lab l1, l2, l3;
 
-    l[0].setLabDetails(401, 60);
-    l[1].setLabDetails(402, 40);
-    l[2].setLabDetails(403, 30);
+    l1.setLabDetails(401, 60);
+    l2.setLabDetails(402, 40);
+    l3.setLabDetails(403, 30);
 
     cout << "Insert Capacity : ";
     cin >> capacity;
 
-    for(int i = 2; i >= 0; i--) {
-        if (capacity <= l[i].getCapacity()) {
-            cout << "Lab " << l[i].getLabID() << endl;
-            break;
-        }
+    if(capacity <= l3.getCapacity()){
+        cout<<"Lab 403"<<endl;
     }
-
+    else if(capacity <= l2.getCapacity()){
+        cout<<"Lab 402"<<endl;
+    }
+    else if(capacity <= l1.getCapacity()){
+        cout<<"Lab 401"<<endl;
+    }
+    else{
+        cout<< "Invalid input"<<endl;
+    }
 
     return 0;
 }
@@ -45,9 +50,5 @@ void Lab::setLabDetails(int lID, int c) {
 
 int Lab::getCapacity() {
     return capacity;
-}
-
-int Lab::getLabID() {
-    return labID;
 }
 // ----------------------------------------------------

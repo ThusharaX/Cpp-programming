@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cstring>
 
 using namespace std;
 
@@ -6,10 +7,10 @@ using namespace std;
 class Plane {
     private:
         int planeID;
-        string piolet;
-        string destination;
+        char piolet[10];
+        char destination[10];
     public:
-        void setPlaneDetails(int pID, string p, string d);
+        void setPlaneDetails(int pID, char p[10], char d[10]);
         void displayPlaneDetails();
         void setPiolet();
         // void getDestination();
@@ -18,29 +19,31 @@ class Plane {
 
 int main() {
 
-    Plane p[4];
+    Plane p1, p2, p3, p4;
 
-    p[0].setPlaneDetails(1, "John", "USA");
-    p[1].setPlaneDetails(2, "George", "UK");
-    p[2].setPlaneDetails(3, "Henry", "USA");
-    p[3].setPlaneDetails(4, "Ronald", "UAE");
+    p1.setPlaneDetails(1, (char *)"John", (char *)"USA");
+    p2.setPlaneDetails(2, (char *)"George", (char *)"UK");
+    p3.setPlaneDetails(3, (char *)"Henry", (char *)"USA");
+    p4.setPlaneDetails(4, (char *)"Ronald", (char *)"UAE");
 
-    for(int i = 0; i < 4; i++) {
-        p[i].setPiolet();
-    }
+    p1.setPiolet();
+    p2.setPiolet();
+    p3.setPiolet();
+    p4.setPiolet();
 
-    for(int i = 0; i < 4; i++) {
-        p[i].displayPlaneDetails();
-    }
+    p1.displayPlaneDetails();
+    p2.displayPlaneDetails();
+    p3.displayPlaneDetails();
+    p4.displayPlaneDetails();
 
     return 0;
 }
 
 // You can put this code segment in Plane.cpp file -----
-void Plane::setPlaneDetails(int pID, string p, string d) {
+void Plane::setPlaneDetails(int pID, char p[10], char d[10]) {
     planeID = pID;
-    piolet = p;
-    destination = d;
+    strcpy(piolet, p);
+    strcpy(destination, d);
 }
 
 void Plane::displayPlaneDetails() {

@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cstring>
 
 using namespace std;
 
@@ -7,10 +8,10 @@ class Train {
     private:
         int trainID;
         int capacity;
-        string startTime;
-        string destination;
+        char startTime[15];
+        char destination[10];
     public:
-        void setTrainDetails(int tID, int c, string sT, string d);
+        void setTrainDetails(int tID, int c, char sT[10], char d[15]);
         void displayTrainDetails();
         void setStartTime();
 };
@@ -18,29 +19,29 @@ class Train {
 
 int main() {
 
-    Train t[3];
+    Train t1, t2, t3;
 
-    t[0].setTrainDetails(1, 200, "6:00AM", "Kandy");
-    t[1].setTrainDetails(2, 150, "7:30AM", "Galle");
-    t[2].setTrainDetails(3, 300, "4:00AM", "Jaffna");
+    t1.setTrainDetails(1, 200, (char *)"6:00AM", (char *)"Kandy");
+    t2.setTrainDetails(2, 150, (char *)"7:30AM", (char *)"Galle");
+    t3.setTrainDetails(3, 300, (char *)"4:00AM", (char *)"Jaffna");
 
-    for(int i = 0; i < 3; i++) {
-        t[i].setStartTime();
-    }
+    t1.setStartTime();
+    t2.setStartTime();
+    t3.setStartTime();
 
-    for(int i = 0; i < 3; i++) {
-        t[i].displayTrainDetails();
-    }
+    t1.displayTrainDetails();
+    t2.displayTrainDetails();
+    t3.displayTrainDetails();
 
     return 0;
 }
 
 // You can put this code segment in Train.cpp file -----
-void Train::setTrainDetails(int tID, int c, string sT, string d) {
+void Train::setTrainDetails(int tID, int c, char sT[10], char d[15]) {
     trainID = tID;
     capacity = c;
-    startTime = sT;
-    destination = d;
+    strcpy(startTime, sT);
+    strcpy(destination, d);
 }
 
 void Train::displayTrainDetails() {

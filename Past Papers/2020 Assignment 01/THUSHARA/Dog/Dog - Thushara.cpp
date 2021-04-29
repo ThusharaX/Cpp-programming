@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cstring>
 
 using namespace std;
 
@@ -6,10 +7,10 @@ using namespace std;
 class Dog {
     private:
         int dogID;
-        string dogName;
-        string owner;
+        char dogName[10];
+        char owner[10];
     public:
-        void setDogDetails(int dID, string dN, string o);
+        void setDogDetails(int dID, char dN[10], char o[10]);
         void displayDogDetails();
         void setOwner();
 };
@@ -17,28 +18,28 @@ class Dog {
 
 int main() {
 
-    Dog d[3];
+    Dog d1, d2, d3;
 
-    d[0].setDogDetails(1, "Zimba", "Lucy");
-    d[1].setDogDetails(2, "Timmy", "Kate");
-    d[2].setDogDetails(3, "Toby", "Joel");
+    d1.setDogDetails(1, (char *)"Zimba", (char *)"Lucy");
+    d2.setDogDetails(2, (char *)"Timmy", (char *)"Kate");
+    d3.setDogDetails(3, (char *)"Toby", (char *)"Joel");
 
-    for(int i = 0; i < 3; i++) {
-        d[i].setOwner();
-    }
+    d1.setOwner();
+    d3.setOwner();
+    d3.setOwner();
 
-    for(int i = 0; i < 3; i++) {
-        d[i].displayDogDetails();
-    }
+    d1.displayDogDetails();
+    d2.displayDogDetails();
+    d3.displayDogDetails();
 
     return 0;
 }
 
 // You can put this code segment in Dog.cpp file -----
-void Dog::setDogDetails(int dID, string dN, string o) {
+void Dog::setDogDetails(int dID, char dN[10], char o[10]) {
     dogID = dID;
-    dogName = dN;
-    owner = o;
+    strcpy(dogName, dN);
+    strcpy(owner, o);
 }
 
 void Dog::displayDogDetails() {
