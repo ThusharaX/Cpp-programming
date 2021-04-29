@@ -26,16 +26,16 @@ int main() {
     cin >> capacity;
 
     if(capacity <= l3.getCapacity()){
-        cout<<"Lab 403"<<endl;
+        cout << "Lab 403" << endl;
     }
     else if(capacity <= l2.getCapacity()){
-        cout<<"Lab 402"<<endl;
+        cout << "Lab 402" << endl;
     }
     else if(capacity <= l1.getCapacity()){
-        cout<<"Lab 401"<<endl;
+        cout << "Lab 401" << endl;
     }
     else{
-        cout<< "Invalid input"<<endl;
+        cout << "Invalid input" << endl;
     }
 
     return 0;
