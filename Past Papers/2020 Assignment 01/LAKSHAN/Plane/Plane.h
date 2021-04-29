@@ -1,14 +1,12 @@
-#include <iostream>
-using namespace std;
 
 class Plane {
     private:
         int planeID;
-        string piolet;
-        string destination;
+        char piolet[20];
+        char destination[20];
 
     public:
-        void setPlaneDetails(int iplaneID, string ipiolet, string idestination);
+        void setPlaneDetails(int iplaneID, char ipiolet[20], char idestination[20]);
         void displayPlaneDetails();
         void setPiolet();
 };

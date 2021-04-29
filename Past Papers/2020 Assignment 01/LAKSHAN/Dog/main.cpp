@@ -4,9 +4,9 @@
 int main() {
     Dog d1,d2,d3;
 
-    d1.setDogDetails(1, "Zimba", "Lucy");
-    d2.setDogDetails(2, "Timmy", "Kate");
-    d3.setDogDetails(3, "Toby", "Joel");
+    d1.setDogDetails(1, (char*)"Zimba", (char*)"Lucy");
+    d2.setDogDetails(2, (char*)"Timmy", (char*)"Kate");
+    d3.setDogDetails(3, (char*)"Toby", (char*)"Joel");
 
     d1.setOwner();
     d2.setOwner();

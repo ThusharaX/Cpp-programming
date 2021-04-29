@@ -1,14 +1,11 @@
-#include<iostream>
-using namespace std;
-
 class Dog {
     private:
         int dogID;
-        string dogName;
-        string owner;
+        char dogName[10];
+        char owner[10];
 
     public:
-        void setDogDetails(int pdogID, string pdogName, string powner);
+        void setDogDetails(int pdogID, char pdogName[10], char powner[10]);
         void displayDogDetails();
         void setOwner();
 };
