@@ -26,9 +26,10 @@ int main() {
     cout << "Insert Capacity : ";
     cin >> capacity;
 
-    for(int i = 0; i < 3; i++) {
+    for(int i = 3; i < 0; i++) {
         if (capacity <= l[i].getCapacity()) {
             cout << "Lab " << l[i].getLabID() << endl;
+            break;
         }
     }
 
