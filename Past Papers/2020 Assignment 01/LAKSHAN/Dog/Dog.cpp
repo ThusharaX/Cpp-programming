@@ -1,11 +1,12 @@
 #include "Dog.h"
 #include <iostream>
+#include <string.h>
 using namespace std;
 
-void Dog::setDogDetails(int pdogID, string  pdogName, string powner) {
+void Dog::setDogDetails(int pdogID, char pdogName[10], char powner[10]) {
     dogID = pdogID;
-    dogName = pdogName;
-    owner = powner;
+    strcpy(dogName, pdogName);
+    strcpy(owner, powner);
 }
 
 void Dog::displayDogDetails() {

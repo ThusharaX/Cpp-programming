@@ -4,10 +4,10 @@
 int main() {
    Plane p1,p2,p3,p4;
 
-    p1.setPlaneDetails(1, "John", "USA");
-    p2.setPlaneDetails(2, "George", "UK");
-    p3.setPlaneDetails(3, "Henry", "USA");
-    p4.setPlaneDetails(4, "Ronald", "UAE");
+    p1.setPlaneDetails(1, (char*)"John", (char*)"USA");
+    p2.setPlaneDetails(2, (char*)"George", (char*)"UK");
+    p3.setPlaneDetails(3, (char*)"Henry", (char*)"USA");
+    p4.setPlaneDetails(4, (char*)"Ronald", (char*)"UAE");
 
     p1.setPiolet();
     p2.setPiolet();

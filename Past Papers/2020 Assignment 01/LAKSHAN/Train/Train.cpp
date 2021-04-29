@@ -1,12 +1,13 @@
 #include "Train.h"
 #include <iostream>
+#include <string.h>
 using namespace std;
 
-void Train::setTrainDetails(int ptrainID, int pcapacity, std::string pstartTime, std::string pdestination){
+void Train::setTrainDetails(int ptrainID, int pcapacity, char pstartTime[10], char pdestination[20]){
   trainID = ptrainID;
   capacity = pcapacity;
-  startTime = pstartTime;
-  destination = pdestination;
+  strcpy(startTime, pstartTime);
+  strcpy(destination, pdestination);
 }
 
 void Train::displayTrainDetails(){

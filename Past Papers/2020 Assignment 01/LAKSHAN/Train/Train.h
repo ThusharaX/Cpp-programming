@@ -1,15 +1,12 @@
-#include <iostream>
-using namespace std;
-
 class Train {
   private:
     int trainID;
     int capacity;
-    string  startTime;
-    string  destination;
+    char startTime[10];
+    char destination[20];
 
   public:
-    void setTrainDetails(int ptrainID, int pcapacity, string  pstartTime,string  pdestination);
+    void setTrainDetails(int ptrainID, int pcapacity, char pstartTime[10],char pdestination[20]);
     void displayTrainDetails();
     void setStartTime();
 };

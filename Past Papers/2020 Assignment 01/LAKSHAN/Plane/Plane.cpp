@@ -1,11 +1,12 @@
 #include "Plane.h"
 #include <iostream>
+#include <string.h>
 using namespace std;
 
-void Plane::setPlaneDetails(int iplaneID, string ipiolet, string idestination) {
+void Plane::setPlaneDetails(int iplaneID, char ipiolet[20], char idestination[20]) {
     planeID = iplaneID;
-    piolet = ipiolet;
-    destination = idestination;
+    strcpy(piolet, ipiolet);
+    strcpy(destination, idestination);
 }
 
 void Plane::displayPlaneDetails() {
