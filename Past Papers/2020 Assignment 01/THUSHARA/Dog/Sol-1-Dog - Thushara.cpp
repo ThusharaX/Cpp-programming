@@ -1,7 +1,6 @@
-// Using Char Arrays
+// Using String
 
 #include<iostream>
-#include<cstring>
 
 using namespace std;
 
@@ -9,10 +8,10 @@ using namespace std;
 class Dog {
     private:
         int dogID;
-        char dogName[10];
-        char owner[10];
+        string dogName;
+        string owner;
     public:
-        void setDogDetails(int dID, char dN[10], char o[10]);
+        void setDogDetails(int dID, string dN, string o);
         void displayDogDetails();
         void setOwner();
 };
@@ -22,9 +21,9 @@ int main() {
 
     Dog d1, d2, d3;
 
-    d1.setDogDetails(1, (char *)"Zimba", (char *)"Lucy");
-    d2.setDogDetails(2, (char *)"Timmy", (char *)"Kate");
-    d3.setDogDetails(3, (char *)"Toby", (char *)"Joel");
+    d1.setDogDetails(1, "Zimba", "Lucy");
+    d2.setDogDetails(2, "Timmy", "Kate");
+    d3.setDogDetails(3, "Toby", "Joel");
 
     d1.setOwner();
     d3.setOwner();
@@ -38,10 +37,10 @@ int main() {
 }
 
 // You can put this code segment in Dog.cpp file -----
-void Dog::setDogDetails(int dID, char dN[10], char o[10]) {
+void Dog::setDogDetails(int dID, string dN, string o) {
     dogID = dID;
-    strcpy(dogName, dN);
-    strcpy(owner, o);
+    dogName = dN;
+    owner = o;
 }
 
 void Dog::displayDogDetails() {

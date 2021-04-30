@@ -1,6 +1,7 @@
-// Using String
+// Using Char Arrays
 
 #include<iostream>
+#include<cstring>
 
 using namespace std;
 
@@ -8,13 +9,13 @@ using namespace std;
 class Plane {
     private:
         int planeID;
-        string piolet;
-        string destination;
+        char piolet[10];
+        char destination[10];
     public:
-        void setPlaneDetails(int pID, string p, string d);
+        void setPlaneDetails(int pID, char p[10], char d[10]);
         void displayPlaneDetails();
+        char *getDestination();
         void setPiolet();
-        // void getDestination();
 };
 // ----------------------------------------------------
 
@@ -22,10 +23,10 @@ int main() {
 
     Plane p1, p2, p3, p4;
 
-    p1.setPlaneDetails(1, "John", "USA");
-    p2.setPlaneDetails(2, "George", "UK");
-    p3.setPlaneDetails(3, "Henry", "USA");
-    p4.setPlaneDetails(4, "Ronald", "UAE");
+    p1.setPlaneDetails(1, (char *)"John", (char *)"USA");
+    p2.setPlaneDetails(2, (char *)"George", (char *)"UK");
+    p3.setPlaneDetails(3, (char *)"Henry", (char *)"USA");
+    p4.setPlaneDetails(4, (char *)"Ronald", (char *)"UAE");
 
     p1.setPiolet();
     p2.setPiolet();
@@ -41,24 +42,25 @@ int main() {
 }
 
 // You can put this code segment in Plane.cpp file -----
-void Plane::setPlaneDetails(int pID, string p, string d) {
+void Plane::setPlaneDetails(int pID, char p[10], char d[10]) {
     planeID = pID;
-    piolet = p;
-    destination = d;
+    strcpy(piolet, p);
+    strcpy(destination, d);
 }
 
 void Plane::displayPlaneDetails() {
     cout << endl <<"PlaneID = " << planeID << endl;
     cout << "Piolet = " << piolet << endl;
-    cout << "Destination = " << destination << endl;
+    cout << "Destination = " << getDestination() << endl;
 }
 
 void Plane::setPiolet() {
     cout << "Input new piolet of plane " << planeID << ": ";
     cin >> piolet;
 }
+
+char *Plane::getDestination() {
+    return destination;
+}
 // ----------------------------------------------------
 
-// void Plane::getDestination() {
-
-// }
