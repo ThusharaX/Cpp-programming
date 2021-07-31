@@ -17,7 +17,7 @@
 ![GitHub labels](https://img.shields.io/github/labels/ThusharaX/Cpp-programming/help%20wanted)
 ![GitHub](https://img.shields.io/github/license/ThusharaX/Cpp-programming)
 
-![Cpp-programming](https://socialify.git.ci/ThusharaX/Cpp-programming/image?description=1&forks=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FThusharaX%2FBinaryMatter-assets%2Fmain%2FYTlogoRound-withBorder.png%3Ftoken%3DALMALZ2MQXGTXIKTKAVDJXTA5YAOQ&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark)
+![Cpp-programming](https://socialify.git.ci/ThusharaX/Cpp-programming/image?description=1&forks=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FBinaryMatter%2FBinaryMatter.github.io%2Fgh-pages%2FlogoRoundwithBorder.png&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark)
 
 - 🌱 This is a repository for C++ programming related questions.
 - 👯 Everyone is welcome to contribute.
@@ -26,23 +26,37 @@
 
 Thanks goes to these wonderful people :heart:
 
+<!-- readme: contributors -start -->
 <table>
-    <tr>
-        <td align="center"><a href="https://github.com/ThusharaX"><img src="https://avatars2.githubusercontent.com/u/47711719?s=400&v=4" width="100px;" alt=""/>
-        <br/>
-        <sub><b>ThusharaX</b></sub></a>
-        <br/>
-        </td>
-        <td align="center"><a href="https://github.com/Pandz18"><img src="https://avatars2.githubusercontent.com/u/58665834?s=400&v=4" width="100px;" alt=""/>
-        <br/>
-        <sub><b>Pandz18</b></sub></a>
-        <br/>
-        </td>
-        </td>
-        <td align="center"><a href="https://github.com/pasindulakshan"><img src="https://avatars2.githubusercontent.com/u/74607482?s=400&v=4" width="100px;" alt=""/>
-        <br/>
-        <sub><b>pasindulakshan</b></sub></a>
-        <br/>
-        </td>
-    </tr>
+<tr>
+    <td align="center">
+        <a href="https://github.com/ThusharaX">
+            <img src="https://avatars.githubusercontent.com/u/47711719?v=4" width="100(px);" alt="ThusharaX"/>
+            <br />
+            <sub><b>Thushara Thiwanka</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/ImgBotApp">
+            <img src="https://avatars.githubusercontent.com/u/31427850?v=4" width="100(px);" alt="ImgBotApp"/>
+            <br />
+            <sub><b>Imgbot</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/pasindulakshan">
+            <img src="https://avatars.githubusercontent.com/u/74607482?v=4" width="100(px);" alt="pasindulakshan"/>
+            <br />
+            <sub><b>Pasindu Lakshan</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
+        <a href="https://github.com/SahanPunchihewa">
+            <img src="https://avatars.githubusercontent.com/u/72688889?v=4" width="100(px);" alt="SahanPunchihewa"/>
+            <br />
+            <sub><b>Sahan Punchihewa</b></sub>
+        </a>
+    </td></tr>
 </table>
+<!-- readme: contributors -end -->
