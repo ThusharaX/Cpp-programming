@@ -44,18 +44,18 @@ Thanks goes to these wonderful people :heart:
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/pasindulakshan">
-            <img src="https://avatars.githubusercontent.com/u/74607482?v=4" width="100(px);" alt="pasindulakshan"/>
-            <br />
-            <sub><b>Pasindu Lakshan</b></sub>
-        </a>
-    </td></tr>
-<tr>
-    <td align="center">
         <a href="https://github.com/Randula98">
             <img src="https://avatars.githubusercontent.com/u/85297495?v=4" width="100(px);" alt="Randula98"/>
             <br />
             <sub><b>Randula Yashasmith Mawaththa</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
+        <a href="https://github.com/pasindulakshan">
+            <img src="https://avatars.githubusercontent.com/u/74607482?v=4" width="100(px);" alt="pasindulakshan"/>
+            <br />
+            <sub><b>Pasindu Lakshan</b></sub>
         </a>
     </td>
     <td align="center">
