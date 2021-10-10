@@ -2,7 +2,6 @@
 
 <h2><strong>IT 1050 Object Oriented Concepts</strong></h2>
 
-### This project need a **star** ⭐ from you ♥
 <br>
 
 ![GitHub top language](https://img.shields.io/github/languages/top/ThusharaX/Cpp-programming)
