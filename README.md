@@ -25,7 +25,7 @@
 
 Thanks goes to these wonderful people :heart:
 
-<!-- readme: contributors ImgBotApp/- -start -->
+<!-- readme: contributors -start -->
 <table>
 <tr>
     <td align="center">
@@ -69,7 +69,7 @@ Thanks goes to these wonderful people :heart:
 
 ## Bots 🤖
 
-<!-- readme: bots ImgBotApp -start -->
+<!-- readme: ImgBotApp -start -->
 <table>
 </table>
-<!-- readme: bots -end -->
+<!-- readme: ImgBotApp -end -->
