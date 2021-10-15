@@ -70,4 +70,6 @@ Thanks goes to these wonderful people :heart:
 ## Bots 🤖
 
 <!-- readme: bots -start -->
+<table>
+</table>
 <!-- readme: bots -end -->
