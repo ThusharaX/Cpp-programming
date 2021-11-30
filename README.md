@@ -2,6 +2,8 @@
 
 <h2><strong>IT 1050 Object Oriented Concepts</strong></h2>
 
+🔴 [OOC - Study Support Session](https://github.com/ThusharaX/OOC-Study-Support-Session) - 2021/10/19
+
 <br>
 
 ![GitHub top language](https://img.shields.io/github/languages/top/ThusharaX/Cpp-programming)
