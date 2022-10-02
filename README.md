@@ -67,14 +67,6 @@ Thanks goes to these wonderful people :heart:
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/DilkiP">
-            <img src="https://avatars.githubusercontent.com/u/83983108?v=4" width="100(px);" alt="DilkiP"/>
-            <br />
-            <sub><b>Dilki Welagedara</b></sub>
-        </a>
-    </td></tr>
-<tr>
-    <td align="center">
         <a href="https://github.com/lifeashaze">
             <img src="https://avatars.githubusercontent.com/u/34096693?v=4" width="100(px);" alt="lifeashaze"/>
             <br />
