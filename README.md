@@ -75,6 +75,13 @@ Thanks goes to these wonderful people :heart:
     </td></tr>
 <tr>
     <td align="center">
+        <a href="https://github.com/69poisonivy69">
+            <img src="https://avatars.githubusercontent.com/u/91622932?v=4" width="100(px);" alt="69poisonivy69"/>
+            <br />
+            <sub><b>Hiya Shivnani</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/lifeashaze">
             <img src="https://avatars.githubusercontent.com/u/34096693?v=4" width="100(px);" alt="lifeashaze"/>
             <br />
