@@ -82,17 +82,17 @@ Thanks goes to these wonderful people :heart:
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/69poisonivy69">
-            <img src="https://avatars.githubusercontent.com/u/91622932?v=4" width="100(px);" alt="69poisonivy69"/>
-            <br />
-            <sub><b>Hiya Shivnani</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/ShanelkaPramuditha">
             <img src="https://avatars.githubusercontent.com/u/74038575?v=4" width="100(px);" alt="ShanelkaPramuditha"/>
             <br />
             <sub><b>Shanelka Pramuditha</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/69poisonivy69">
+            <img src="https://avatars.githubusercontent.com/u/91622932?v=4" width="100(px);" alt="69poisonivy69"/>
+            <br />
+            <sub><b>Hiya Shivnani</b></sub>
         </a>
     </td></tr>
 <tr>
