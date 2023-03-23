@@ -89,6 +89,14 @@ Thanks goes to these wonderful people :heart:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/ShanelkaPramuditha">
+            <img src="https://avatars.githubusercontent.com/u/74038575?v=4" width="100(px);" alt="ShanelkaPramuditha"/>
+            <br />
+            <sub><b>Shanelka Pramuditha</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
         <a href="https://github.com/lifeashaze">
             <img src="https://avatars.githubusercontent.com/u/34096693?v=4" width="100(px);" alt="lifeashaze"/>
             <br />
