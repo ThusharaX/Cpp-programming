@@ -97,13 +97,6 @@ Thanks goes to these wonderful people :heart:
     </td></tr>
 <tr>
     <td align="center">
-        <a href="https://github.com/IreshEranga">
-            <img src="https://avatars.githubusercontent.com/u/117840288?v=4" width="100(px);" alt="IreshEranga"/>
-            <br />
-            <sub><b>Iresh Eranga</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/lifeashaze">
             <img src="https://avatars.githubusercontent.com/u/34096693?v=4" width="100(px);" alt="lifeashaze"/>
             <br />
