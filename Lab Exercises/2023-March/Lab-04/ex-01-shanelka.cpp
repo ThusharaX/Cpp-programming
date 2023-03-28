@@ -17,9 +17,9 @@ struct Square {
 };
 
 // function prototype
-float circleArea (float r);
-float rectArea (float x, float y);
-float squareArea (float x);
+float circleArea (struct Circle c);
+float rectArea (struct Rectangle r);
+float squareArea (struct Square s);
 
 // start the main function
 int main () {
@@ -42,7 +42,7 @@ int main () {
     squ1.length = 4;
 
     // function calling and calculate
-    area = rectArea (rect1.length, rect1.width) - ((rectArea (rect2.length, rect2.width) + squareArea (squ1.length) + circleArea (c1.radius)));
+    area = rectArea (rect1) - ((rectArea (rect2) + squareArea (squ1) + circleArea (c1)));
 
     // display output
     cout << "Green colour area = " << fixed << setprecision(3) << area << endl;
@@ -51,14 +51,14 @@ int main () {
 }
 
 // function definition
-float circleArea (float r) {
-    return ((22 / 7.0) * r * r);
+float circleArea (struct Circle c) {
+    return ((22 / 7.0) * c.radius * c.radius);
 }
 
-float rectArea (float x, float y) {
-    return (x * y);
+float rectArea (struct Rectangle r) {
+    return (r.length * r.width);
 }
 
-float squareArea (float x) {
-    return (x * x);
+float squareArea (struct Square s) {
+    return (s.length * s.length);
 }
