@@ -53,6 +53,13 @@ Thanks goes to these wonderful people :heart:
     </td></tr>
 <tr>
     <td align="center">
+        <a href="https://github.com/ShanelkaPramuditha">
+            <img src="https://avatars.githubusercontent.com/u/74038575?v=4" width="100(px);" alt="ShanelkaPramuditha"/>
+            <br />
+            <sub><b>Shanelka Pramuditha</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/pasindulakshan">
             <img src="https://avatars.githubusercontent.com/u/74607482?v=4" width="100(px);" alt="pasindulakshan"/>
             <br />
@@ -64,13 +71,6 @@ Thanks goes to these wonderful people :heart:
             <img src="https://avatars.githubusercontent.com/u/72688889?v=4" width="100(px);" alt="SahanPunchihewa"/>
             <br />
             <sub><b>Sahan Punchihewa</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/ShanelkaPramuditha">
-            <img src="https://avatars.githubusercontent.com/u/74038575?v=4" width="100(px);" alt="ShanelkaPramuditha"/>
-            <br />
-            <sub><b>Shanelka Pramuditha</b></sub>
         </a>
     </td></tr>
 <tr>
@@ -89,18 +89,18 @@ Thanks goes to these wonderful people :heart:
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/69poisonivy69">
-            <img src="https://avatars.githubusercontent.com/u/91622932?v=4" width="100(px);" alt="69poisonivy69"/>
-            <br />
-            <sub><b>Hiya Shivnani</b></sub>
-        </a>
-    </td></tr>
-<tr>
-    <td align="center">
         <a href="https://github.com/IreshEranga">
             <img src="https://avatars.githubusercontent.com/u/117840288?v=4" width="100(px);" alt="IreshEranga"/>
             <br />
             <sub><b>Iresh Eranga</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
+        <a href="https://github.com/69poisonivy69">
+            <img src="https://avatars.githubusercontent.com/u/91622932?v=4" width="100(px);" alt="69poisonivy69"/>
+            <br />
+            <sub><b>Hiya Shivnani</b></sub>
         </a>
     </td>
     <td align="center">
