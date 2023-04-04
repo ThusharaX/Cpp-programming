@@ -67,25 +67,25 @@ Thanks goes to these wonderful people :heart:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/ShanelkaPramuditha">
+            <img src="https://avatars.githubusercontent.com/u/74038575?v=4" width="100(px);" alt="ShanelkaPramuditha"/>
+            <br />
+            <sub><b>Shanelka Pramuditha</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
         <a href="https://github.com/DilkiP">
             <img src="https://avatars.githubusercontent.com/u/83983108?v=4" width="100(px);" alt="DilkiP"/>
             <br />
             <sub><b>Dilki Welagedara</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/kavindu-chethani">
             <img src="https://avatars.githubusercontent.com/u/46352484?v=4" width="100(px);" alt="kavindu-chethani"/>
             <br />
             <sub><b>Kavindu Chethani</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/ShanelkaPramuditha">
-            <img src="https://avatars.githubusercontent.com/u/74038575?v=4" width="100(px);" alt="ShanelkaPramuditha"/>
-            <br />
-            <sub><b>Shanelka Pramuditha</b></sub>
         </a>
     </td>
     <td align="center">
